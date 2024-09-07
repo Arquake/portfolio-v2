@@ -1,0 +1,41 @@
+.about-text-container-inactive {
+    @apply h-0 w-0 border-neutral-700 opacity-0;
+}
+
+.about-text-container-active {
+    @apply w-full border-2 border-neutral-700 overflow-hidden rounded-2xl p-4 text-neutral-50 opacity-100;
+    transition: ease-in-out, width 1600ms ease-in-out 1s, opacity 300ms ease-in-out 1000ms;
+}
+
+
+.div-text {
+    @apply opacity-100;
+}
+
+.text-chr {
+    animation: newLetter ease-in-out 1s;
+}
+
+@keyframes newLetter {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 500ms ease-in-out;
+}
+
+.grid-container > div {
+    overflow: hidden;
+}
+
+.expand-grid {
+    grid-template-rows: 1fr;
+}

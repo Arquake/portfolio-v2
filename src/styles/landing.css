@@ -1,0 +1,57 @@
+.landing {
+
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-origin: border-box;
+    background-position: center center;
+}
+
+/**
+    if on a portait aspect ratio
+ */
+@media (max-aspect-ratio: 1/1) {
+
+    .landing {
+        background-image: url("/profile_pic_phone.jpg");
+    }
+
+    .name-place {
+        @apply text-center text-3xl
+    }
+
+    .nav-place {
+        @apply flex items-center justify-center;
+    }
+
+
+}
+
+/**
+    if on a another aspect ratio than portait
+ */
+@media (min-aspect-ratio: 1/1) or (aspect-ratio: 1/1) {
+
+    .landing {
+        background-image: url("/profile_pic.JPG");
+    }
+
+    .name-nav-container {
+        @apply grid grid-cols-6 grid-rows-6;
+    }
+
+    .name-place {
+        /**
+            text related
+        */
+        @apply 2xl:text-5xl lg:text-4xl md:text-3xl text-2xl;
+
+        /**
+            placement related
+        */
+        @apply col-start-4 row-start-2 col-span-3 mt-auto;
+    }
+
+    .nav-place {
+        @apply col-start-4 row-start-3 col-span-3 ml-2
+    }
+}

@@ -1,0 +1,40 @@
+.underline-navbar {
+    @apply relative;
+}
+
+@media (max-aspect-ratio: 1/1) {
+
+    .underline-navbar:before {
+        content : "";
+        bottom: 1px;
+        left: -1px;
+        height: 1px;
+        width: calc(100% + 2px);
+        background: var(--data-color);
+        @apply absolute duration-300;
+    }
+
+}
+
+/**
+    if on a another aspect ratio than portait
+ */
+@media (min-aspect-ratio: 1/1) or (aspect-ratio: 1/1) {
+
+    .underline-navbar:before {
+        content : "";
+        bottom: -1px;
+        left: -1px;
+        height: 2px;
+        width: 0;
+        background: var(--data-color);
+        @apply absolute duration-300;
+    }
+
+
+    .underline-navbar:hover:before {
+        content : "";
+        width: calc(100% + 2px);
+    }
+
+}

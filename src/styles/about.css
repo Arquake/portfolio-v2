@@ -1,0 +1,79 @@
+.image {
+    filter : blur(5px);
+    margin: 5px;
+}
+
+.symfony {
+    filter: drop-shadow(0 0 .5rem #c1c1c1);
+}
+
+.laravel {
+    filter: drop-shadow(0 0 .5rem #b91c1c);
+}
+
+.react {
+    filter: drop-shadow(0 0 .5rem #22d3ee);
+}
+
+.angular {
+    filter: drop-shadow(0 0 .5rem #fafafa);
+}
+
+.twig {
+    filter: drop-shadow(0 0 .5rem #84cc16);
+}
+
+.scss {
+    filter: drop-shadow(0 0 .5rem #f472b6);
+}
+
+.tailwind {
+    filter: drop-shadow(0 0 .5rem #0369a1);
+}
+
+.pgsql {
+    filter: drop-shadow(0 0 .5rem #1e40af);
+}
+
+.mysql {
+    filter: drop-shadow(0 0 .5rem #b45309);
+}
+
+.jetbrain {
+    filter: drop-shadow(0 0 .5rem #a21caf);
+}
+
+.vscode {
+    filter: drop-shadow(0 0 .5rem #0284c7);
+}
+
+.figma {
+     filter: drop-shadow(0 0 .5rem #22c55e);
+ }
+
+.backend:hover {
+    box-shadow: 0 0 20px #1d4ed8;
+    @apply border-blue-700;
+}
+
+.frontend:hover {
+    box-shadow: 0 0 20px #16a34a;
+    @apply border-green-600;
+}
+
+.outils:hover {
+    box-shadow: 0 0 20px #ea580c;
+    @apply border-orange-600;
+}
+
+.card {
+    @apply border border-neutral-700 rounded-xl duration-300 cursor-help;
+
+    &:hover {
+        scale: 1.01;
+    }
+}
+
+.component-img {
+    @apply h-1/3 w-full opacity-90 justify-self-center self-center;
+}

@@ -1,0 +1,31 @@
+.card-work {
+    @apply text-neutral-50 text-lg h-40 lg:grid-cols-6 grid-cols-5 gap-6 pb-2;
+}
+
+.list-element {
+    @apply bg-white h-4 w-4 rounded-full justify-self-center self-center pr-4 lg:mr-0 sm:mr-4 sm:block hidden;
+}
+
+.card-hover:hover {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
+}
+
+.image-link {
+    @apply lg:w-[36rem] sm:w-96 sm:h-32 lg:order-2 self-center border border-slate-900 rounded-2xl sm:mx-8 card-hover duration-300;
+}
+
+.card-title {
+    @apply text-xl bottom-0 lg:mb-0 md:mb-0 sm:mb-0 w-full;
+}
+
+.text-part {
+    @apply flex flex-wrap lg:flex-nowrap;
+}
+
+.paragraph {
+    @apply font-light text-base mt-2 w-full;
+}
+
+.informations-container {
+    @apply lg:w-full sm:w-4/5;
+}

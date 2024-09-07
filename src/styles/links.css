@@ -1,0 +1,4 @@
+.link {
+    @apply underline underline-offset-2 decoration-1 hover:font-semibold hover:decoration-2
+}
+

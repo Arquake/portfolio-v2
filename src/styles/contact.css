@@ -1,0 +1,12 @@
+.contact:before {
+    @apply h-1 bg-pink-900 absolute rounded-full w-full;
+    content: "";
+    bottom: -.5rem;
+    left: -3px;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}

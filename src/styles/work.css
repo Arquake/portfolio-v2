@@ -1,0 +1,6 @@
+.work {
+    background: rgb(23, 37, 84);
+    background: linear-gradient(to bottom right, rgba(23, 37, 84, 1), rgba(15, 23, 42, 1));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
