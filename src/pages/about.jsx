@@ -67,7 +67,11 @@ const About = () => {
                         </a>
                     </div>
 
-                    <AboutText showDiv={showDiv}/>
+                    <div className="container">
+                        <div className="w-min bg-blue-200">
+
+                        </div>
+                    </div>
 
                 </main>
             </div>
