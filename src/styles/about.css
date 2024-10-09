@@ -7,6 +7,10 @@
     filter: drop-shadow(0 0 .5rem #c1c1c1);
 }
 
+.node {
+    filter: drop-shadow(0 0 .5rem #4d7c0f);
+}
+
 .laravel {
     filter: drop-shadow(0 0 .5rem #b91c1c);
 }
@@ -67,7 +71,7 @@
 }
 
 .card {
-    @apply border border-neutral-700 rounded-xl duration-300 cursor-help;
+    @apply border border-neutral-700 rounded-xl duration-300 /*cursor-help*/ cursor-default;
 
     &:hover {
         scale: 1.01;
@@ -76,4 +80,12 @@
 
 .component-img {
     @apply h-1/3 w-full opacity-90 justify-self-center self-center;
+}
+
+.about-card-image {
+    @apply rounded-t-xl object-cover object-center w-full h-full blur-sm absolute
+}
+
+.card:hover > * > .about-card-image {
+    @apply opacity-25 duration-300
 }

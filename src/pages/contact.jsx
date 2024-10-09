@@ -18,11 +18,6 @@ const Contact = () => {
                             Me Contacter
                         </h2>
                         <p className="flex gap-1">
-                            <img src="/phone.svg" alt="numéro de téléphone"
-                                 className="h-5 w-5 opacity-90 justify-self-end self-center"/>
-                            Téléphone : <a href="tel:0787173223" className="link">33+ 07 87 17 32 23</a>
-                        </p>
-                        <p className="flex gap-1">
                             <img src="/mail.svg" alt="email"
                                  className="h-5 w-5 opacity-90 justify-self-end self-center"/>
                             Email principal : <a href="mailto:nicolas-vera@orange.fr"

@@ -16,7 +16,7 @@ const Portfolio = () => {
                         Création de mon portfolio personnel
                     </p>
                 </div>
-                <a className="image-link" aria-label="page web de calculateur de rencontre pour Pathfinder 2e" href="https://veras.fr/">
+                <a className="image-link" aria-label="portfolio personnel" href="https://veras.fr/">
                     <img src="/portfolio.jpg" loading="lazy" className="w-full h-full rounded-2xl object-cover inside-shadow" alt=""/>
                 </a>
             </div>
