@@ -20,13 +20,7 @@ const Contact = () => {
                         <p className="flex gap-1">
                             <img src="/mail.svg" alt="email"
                                  className="h-5 w-5 opacity-90 justify-self-end self-center"/>
-                            Email principal : <a href="mailto:nicolas-vera@orange.fr"
-                                                 className="link">nicolas-vera@orange.fr</a>
-                        </p>
-                        <p className="flex gap-1">
-                            <img src="/mail.svg" alt="email"
-                                 className="h-5 w-5 opacity-90 justify-self-end self-center"/>
-                            Email secondaire : <a href="mailto:nicolas@veras.fr" className="link">nicolas@veras.fr</a>
+                            Email : <a href="mailto:nicolas@veras.fr" className="link">nicolas@veras.fr</a>
                         </p>
                         <p className="flex gap-1">
                             <img src="/linkedin.svg" alt="linkedin" className="h-5 w-5 opacity-90 justify-self-end self-center"/>
