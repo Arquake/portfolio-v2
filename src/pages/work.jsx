@@ -13,14 +13,23 @@ const Work = () => {
 
     return (
         <>
-            <div className="work min-h-dvh">
+            <div className="bg-indigo-950 min-h-dvh">
                 <NavLayout color="#eff6ff"/>
                 <main className="pt-12 2xl:px-16 px-2 pb-2 space-y-8">
+                    {/*
                     <Portfolio/>
                     <Djangler/>
                     <Pathfinder/>
                     <MarcEtSeb/>
                     <Dyonisos/>
+                    */}
+                    <div className="text-white">
+                        <div className="flex justify-end w-fit list-item">
+                            <div className="extender" />
+                            <p>Portfolio</p>
+                        </div>
+                        
+                    </div>
                 </main>
             </div>
         </>
